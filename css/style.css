@@ -1,0 +1,23 @@
+body {
+    font-family: Tahoma, Arial;
+    background-color: #f8f9fa;
+}
+
+h3, h5 {
+    color: #198754;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* ألوان مخصصة لكل نوع مساعدة */
+.card-food { background-color: #FFD966; color: #000; }       /* غذاء */
+.card-medicine { background-color: #E74C3C; color: #fff; }   /* دواء */
+.card-water { background-color: #3498DB; color: #fff; }      /* مياه */
+.card-shelter { background-color: #27AE60; color: #fff; }    /* إيواء */
+
+footer {
+    font-size: 14px;
+}
